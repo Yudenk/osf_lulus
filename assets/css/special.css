@@ -1,0 +1,81 @@
+/* Style untuk tombol "Open Modal" */
+#openModal {
+	background-color: #2196F3;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+/* Style untuk modal */
+.modal {
+	display: none; /* Modal di-hide saat pertama kali diload */
+	position: fixed; /* Modal di-set sebagai posisi fixed agar tetap berada di atas halaman */
+	z-index: 1; /* Modal di-set di atas konten lain pada halaman */
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto; /* Agar konten dalam modal dapat discroll */
+	background-color: rgba(0,0,0,0.4); /* Efek gelap pada latar belakang saat modal muncul */
+}
+
+/* Style untuk konten dalam modal */
+.modal-content {
+	background-color: #fefefe;
+	margin: 10% auto;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 80%;
+	max-width: 600px;
+}
+
+/* Style untuk tombol close */
+.close {
+	color: #aaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/* Style untuk label */
+label {
+	display: block;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+/* Style untuk input field */
+input[type="text"], input[type="email"], textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	resize: vertical;
+}
+
+/* Style untuk tombol submit */
+input[type="submit"] {
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 16px;
+	margin-top: 10px;
+}
+
+/* Style untuk tombol submit saat di-hover */
+input[type="submit"]:hover {
+	background-color: #45a049;
+}

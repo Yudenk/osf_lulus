@@ -1,0 +1,31 @@
+   /* CSS untuk blur background */
+   .popup-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(8px);
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    cursor: pointer;
+   }
+
+   /* CSS untuk popup image */
+   .popup-image {
+   	max-width: 30%;
+   	max-height: 50%;
+   }
+
+   /* CSS untuk tombol close */
+   .popup-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+}
